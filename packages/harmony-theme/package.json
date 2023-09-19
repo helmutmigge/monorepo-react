@@ -11,7 +11,9 @@
     "build": "rm -rf dist/  && prettier --write src/ && npm run build:esm && npm run build:cjs && npm run build:tailwindcss",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
+    "build:cjs:w": "tsc --module CommonJS --outDir dist/cjs --watch",
     "build:tailwindcss": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "build:tailwindcss:w": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "helmut Migge",

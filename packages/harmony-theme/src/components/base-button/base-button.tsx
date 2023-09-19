@@ -2,7 +2,7 @@ import { ComponentProps, forwardRef } from 'react';
 import { VariantProps, tv } from 'tailwind-variants';
 
 const baseButtonVariants = tv({
-    base: ['px-[1.5rem]', 'rounded-[0.5rem]', 'uppercase', 'box-border', 'items-center', 'justify-center', 'inline-flex'],
+    base: ['px-6', 'gap-2', 'rounded-2', 'uppercase', 'box-border', 'items-center', 'justify-center', 'inline-flex'],
     variants: {
         variant: {
             'Primary-Large': [
@@ -14,14 +14,14 @@ const baseButtonVariants = tv({
                 'disabled:text-neutral-6',
                 'focus:outline',
                 'focus:outline-primary-pure',
-                'focus:outline-[0.0625rem]',
+                'focus:outline-2.5',
                 'focus:outline-offset-[0.12rem]',
                 'focus:boder-transparent',
                 'border-transparent',
                 'active:outline-none',
                 'active:bg-primary-7',
-                'h-[3rem]',
-                'py-[3rem]'
+                'h-12',
+                'py-12'
             ],
             'Secondary-Large': [
                 'bg-transparent',
@@ -34,13 +34,13 @@ const baseButtonVariants = tv({
                 'focus:bg-primary-3',
                 'focus:outline-primary-pure',
                 'focus:outline-offset-[0.12rem]',
-                'focus:outline-[0.0625rem]',
+                'focus:outline-2.5',
                 'focus:boder-transparent',
                 'active:outline-none',
                 'active:bg-primary-7',
                 'active:text-neutral-2',
-                'h-[3rem]',
-                'py-[3rem]'
+                'h-12',
+                'py-12'
             ],
             'Tertiary-Large': [
                 'bg-transparent',
@@ -48,15 +48,15 @@ const baseButtonVariants = tv({
                 'hover:bg-secondary-2',
                 'disabled:text-neutral-6',
                 'focus:bg-primary-3',
-                'focus:outline-[0.625rem]',
+                'focus:outline-2.5',
                 'focus:outline-offset-[0.12rem]',
                 'outline-primary-pure',
                 'focus:border-transparent',
                 'active:outline-none',
                 'active:bg-secondary-7',
                 'active:text-neutral-2',
-                'h-[3rem]',
-                'py-[3rem]'
+                'h-12',
+                'py-12'
             ],
             'Primary-Small': [
                 'border-none',
@@ -67,7 +67,7 @@ const baseButtonVariants = tv({
                 'disabled:text-neutral-6',
                 'focus:outline',
                 'focus:outline-primary-pure',
-                'focus:outline-[0.0625rem]',
+                'focus:outline-2.5',
                 'focus:outline-offset-[0.12rem]',
                 'border-transparent',
                 'active:outline-none',
@@ -86,7 +86,7 @@ const baseButtonVariants = tv({
                 'focus:bg-primary-3',
                 'focus:outline-primary-pure',
                 'focus:outline-offset-[0.12rem]',
-                'focus:outline-[0.0625rem]',
+                'focus:outline-2.5',
                 'focus:boder-transparent',
                 'active:outline-none',
                 'active:bg-primary-7',
@@ -100,7 +100,7 @@ const baseButtonVariants = tv({
                 'hover:bg-secondary-2',
                 'disabled:text-neutral-6',
                 'focus:bg-primary-3',
-                'focus:outline-[0.625rem]',
+                'focus:outline-2.5',
                 'focus:outline-offset-[0.12rem]',
                 'outline-primary-pure',
                 'focus:border-transparent',
@@ -111,10 +111,12 @@ const baseButtonVariants = tv({
                 'py-[0.5rem]'
             ],
             Compact: [
-                'capitalize',
+                'text-buton1',
                 'h-8',
                 'px-1',
                 'py-1',
+                'font-rubik',
+                'not-italic',
                 'text-neutral-10',
                 'hover:text-primary-pure',
                 'disabled:text-neutral-6',

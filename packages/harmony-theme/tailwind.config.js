@@ -30,7 +30,7 @@ module.exports = {
           fontWeight: '400'
         }
       ],
-      'button': [
+      'buton1': [
         '0.875rem',{
           lineHeight: '1rem',
           fontWeight: '700'
