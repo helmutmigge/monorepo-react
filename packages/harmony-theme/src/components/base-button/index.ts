@@ -1,1 +1,1 @@
-export { default as BaseButton, type BaseButtonProps } from './base-button';
+export { default as BaseButton, type BaseButtonProps } from './base-button'
