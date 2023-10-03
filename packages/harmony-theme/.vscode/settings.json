@@ -1,10 +1,11 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.bracketPairColorization.enabled": true,
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.wordWrap": "on",
     "editor.codeActionsOnSave": {
+      "source.fixAll": true,
       "source.fixAll.eslint": true,
       "source.addMissingImports": true 
     },
